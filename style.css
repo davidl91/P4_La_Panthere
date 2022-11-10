@@ -273,6 +273,8 @@ a:hover {
 }
 
 .row-no-gutters {
+    display: flex;
+    justify-content: space-around;
     margin-right: 0;
     margin-left: 0;
 }
@@ -746,6 +748,10 @@ h4 {
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+}
+.portfolio-row a {
+    display: flex;
+    justify-content: center;
 }
 
 .avatar {
